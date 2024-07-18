@@ -39,7 +39,7 @@ body{
     border-radius: 10px;
 }
 #nbar .nb1{
-    width: 23%;
+    width: 20%;
     float: left;
     background: transparent;
 }
@@ -118,7 +118,6 @@ body{
     margin-bottom: 20vh;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
-    justify-content: center;
     background: none;   
 }
 .topheas{
@@ -149,6 +148,7 @@ body{
     float: left;
     background: transparent;
 }
+
 .tophead2{
     
     width: 350px;
@@ -191,7 +191,7 @@ body{
     background: transparent;
 }
 .tophead1 .tophead11{
-    width: 65%;
+    width: 70%;
     height: auto;
     float: right;
     margin-top: 10vw;
@@ -217,6 +217,7 @@ body{
  
 }
 .bn{
+    margin-right: 20px;
     background-image: -webkit-linear-gradient(30deg, #1906a6 50%, transparent 50%);
     background-image: linear-gradient(30deg, #117cba 50%, transparent 50%);
     background-size: 500px;
@@ -267,9 +268,9 @@ body{
     background-size: cover;
 }
 .aboutmeme{
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 52%;
+    margin-left: 24%;
+    margin-right:24%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     justify-content: center;
@@ -287,6 +288,7 @@ body{
     border: 10px solid #DEF060;
     position: relative;
     border-radius: 10px;
+    margin-left: 60px;
 }
 .bgclip{
     width: 100%;
@@ -295,8 +297,8 @@ body{
 }
 .aboutme1 img{
     position: absolute;
-    top: -4vh;
-    left: 4vh;
+    top: -2vh;
+    left: 2vh;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(90deg,#0066cc 0%,#c500cc 80%);
@@ -307,6 +309,15 @@ body{
     background: transparent;
 }
 @media only screen and (max-width:500px){
+    .aboutmeme{
+        width: 90%;
+        float: left;
+        margin: 0 0 0 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .aboutme2{
         width: 100%;
         height: auto;
@@ -323,8 +334,22 @@ body{
     }
     .abpp{
         text-align: center;
-        font-size: 40px;
-    }   
+        font-size: ;
+    } 
+    .tophead1 .tophead11{
+        width: 85%;
+    }  
+    .aboutme1{
+        width: 100%;
+        float: left;
+        margin-left: 30px;
+    }
+    #nbar .nb1{
+        margin-left: 14px;
+    }
+    .lkjh{
+        margin: 0;
+    }
 }
 #aboutme .aboutme2 table tr td{
     padding:10px 0px 10px 0px;
@@ -370,7 +395,7 @@ body{
 }
 .services1{
     margin-top: 5vh;
-    background-color: #000;
+    background-color: #000000;
 }
 .services2{
     border-radius: 10px;
@@ -861,9 +886,8 @@ body{
     cursor: pointer;
 }
 .contactme1211:hover{
-    background-image: linear-gradient(to right,rgb(2, 8, 50),rgb(4, 39, 117));
- 
-    transform: translateY(-10%);
+    box-shadow: 0px 8px 10px 0px #020a61;
+    border: 1px solid #ddd;
 }
 .contactme12111{
     width: 7vw;
@@ -1408,7 +1432,7 @@ input:checked + label .description {
 }
 .mobile{
     position: absolute;
-    top: .75rem;
+    top: 1.2rem;
     right: 1rem;
     display: none;
     flex-direction: column;
